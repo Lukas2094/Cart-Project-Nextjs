@@ -1,10 +1,10 @@
-Baixe o repositorio no Github
+ 1 -Baixe o repositorio no Github https://github.com/Lukas2094/Cart-Project-Nextjs
 
-verifique a versão do Node no packageJson
+ * verifique a versão do Node no packageJson
 
-Instale as Dependencias 
+2 - Instale as Dependencias 
 yarn && yarn install
 
-execute o programa e seu servidor em conjunto
+ 3 -execute o programa e seu servidor em conjunto
 
 yarn run dev
