@@ -7,7 +7,7 @@
     "dev:next": "next dev",
     "dev:json-server": "json-server --watch server.json --port 3001",
     "build": "next build",
-    "start": "next start",
+    "start": "concurrently \"next start\" \"yarn dev:json-server\"",
     "lint": "next lint"
   },
   "dependencies": {
